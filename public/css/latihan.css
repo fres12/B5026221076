@@ -1,0 +1,23 @@
+body{
+    background-color: #F5F5F5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24pt;
+}
+.judul{
+    font-weight: 800;
+    color: #4f4f4f;
+}
+#gbrlatar{
+    background-size: cover;
+    background-position: top left;
+    padding: 0;
+}
+.logo{
+    width: 5%;
+    height: fit-content;
+    padding-top: 15px;
+}
+.tul{
+    margin-left: 12px;
+    margin-top: 12px;
+}
