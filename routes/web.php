@@ -90,3 +90,12 @@ Route::get('/keranjangbelanja','App\Http\Controllers\BelanjaController@indexbela
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\BelanjaController@beli');
 Route::post('/keranjangbelanja/masukkan','App\Http\Controllers\BelanjaController@masukkan');
 Route::get('/keranjangbelanja/batal/{id}','App\Http\Controllers\BelanjaController@batal');
+
+Route::get('/minuman','App\Http\Controllers\MinumanController@index');
+Route::get('/minuman/tambah','App\Http\Controllers\MinumanController@tambah');
+Route::post('/minuman/store','App\Http\Controllers\MinumanController@store');
+Route::get('/minuman/edit/{id}','App\Http\Controllers\MinumanController@edit');
+Route::post('/minuman/update','App\Http\Controllers\MinumanController@update');
+Route::get('/minuman/hapus/{id}','App\Http\Controllers\MinumanController@hapus');
+Route::get('/minuman/cari','App\Http\Controllers\MinumanController@cari');
+Route::get('/minuman/lihat/{id}','App\Http\Controllers\MinumanController@lihat');
