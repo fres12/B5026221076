@@ -99,3 +99,8 @@ Route::post('/minuman/update','App\Http\Controllers\MinumanController@update');
 Route::get('/minuman/hapus/{id}','App\Http\Controllers\MinumanController@hapus');
 Route::get('/minuman/cari','App\Http\Controllers\MinumanController@cari');
 Route::get('/minuman/lihat/{id}','App\Http\Controllers\MinumanController@lihat');
+
+Route::get('/mahasiswa','App\Http\Controllers\MahasiswaController@index');
+Route::get('/mahasiswa/edit/{id}','App\Http\Controllers\MahasiswaController@edit');
+Route::post('/mahasiswa/update','App\Http\Controllers\MahasiswaController@update');
+Route::get('/mahasiswa/lihat/{id}','App\Http\Controllers\MahasiswaController@lihat');

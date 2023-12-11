@@ -16,7 +16,7 @@
             <input type="hidden" name="id" value="{{ $m->kodeminuman }}" >
             <label for="nama" class="col-sm-2">Merk Minuman</label>
             <div class="col-7 col-xs-9">
-            <input type="text" class="form-control" id="merk" name="merk" placeholder="Masukkan merk" value="{{ $m->merkminuman }}" required="required">
+            <input type="text" class="form-control" id="merk" name="me" placeholder="Masukkan merk" value="{{ $m->merkminuman }}" required="required">
             </div>
         </div>
         <div class="form-group row">
