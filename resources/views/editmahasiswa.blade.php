@@ -14,7 +14,7 @@
 	@foreach($mahasiswa as $m)
 	<form class="container pl-4 form-horizontal" action="/mahasiswa/update" method="post">
 		{{ csrf_field() }}
-		<input type="hidden" name="NRP" value="{{ $m->NRP }}"> <br/>
+		<input type="hidden" name="id" value="{{ $m->NRP }}"> <br/>
         <div class="form-group row">
             <label for="nama" class="col-sm-2">Nama</label>
             <div class="col-7 col-xs-9">
